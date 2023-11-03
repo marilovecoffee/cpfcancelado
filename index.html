@@ -2,9 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>tanto faz</title>
     <style>
+        /* Adicionando classe para imagens responsivas */
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Outras modificações de estilo conforme necessário */
         body {
             font-family: Arial, sans-serif;
             background-color: #eeeeee;
@@ -12,7 +19,7 @@
         }
 
         .topbar {
-            background-color: rgb(38, 96, 255);
+            background-color: rgb(59, 38, 241);
             color: #fff;
             display: flex;
             justify-content: space-around;
@@ -22,7 +29,7 @@
 
         .topbar a {
             text-decoration: none;
-            color: rgb(148, 177, 255);
+            color: rgb(255, 255, 255);
             padding: 10px 20px;
             border-radius: 5px;
         }
@@ -38,7 +45,7 @@
             margin: 10px;
             text-align: center;
             max-width: 200px;
-            background-color: rgb(216, 193, 255);
+            background-color: rgb(255, 255, 255);
             border-radius: 5px;
             padding: 10px;
         }
@@ -46,9 +53,9 @@
 </head>
 <body>
     <div class="topbar">
-        <a href="pkg/index2.html?categoria=1">Filmes</a>
-        <a href="pkg/index2.html?categoria=2">Series</a>
-        <a href="pkg/index2.html?categoria=3">Animes</a>
+        <a href="index.html?categoria=1">Pagina Inicial</a>
+        <a href="pkg/categorias/cdf.html?categoria=2">Filme</a>
+        <a href="pkg/categorias/cds.html?categoria=1">Series</a>
         <a href="pkg/categorias/creditos.html?categoria=4">Creditos</a>
     </div>
 
@@ -56,7 +63,7 @@
         <div class="item">
             <a href="pkg/htmls/fnafopsf.html?categoria=5">
                 <img src="pkg/imagens/ffffnaf.jpg" alt="Imagem 1">
-                <p>Five Nights at Freddy's: O Pesadelo sem fim</p>
+                <p>Five Nights at Freddy's: O Pesadelo sem fim (LEGENDADO)</p>
             </a>
         </div>
         <div class="item">
